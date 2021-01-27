@@ -1,0 +1,30 @@
+function callMe(name) {
+ console.log(name);
+ }
+ 
+ 
+OR
+ 
+ const callMe = function(name) {
+ console.log(name);
+ }
+ 
+ Can be written as below in Arrow function
+ 
+ const callMe = (name) => {
+ console.log(name);
+ }
+ 
+ 
+ //No Argument
+ const callMe = () => {
+ console.log('Max!');
+ }
+ 
+ //Single Argument
+ const callMe = name => {
+ console.log(name);
+ }
+ 
+ //Just returning a value
+  const returnMe = name => name
